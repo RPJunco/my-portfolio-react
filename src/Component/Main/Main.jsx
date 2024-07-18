@@ -5,10 +5,10 @@ const Main = () => {
         
     <main id="main-contenedor">
 
-    <section class="hero-contenedor" id="inicio">
+    <section className="hero-contenedor" id="inicio">
 
-        <section class="hero-presentacion">
-            <section class="hero-section-info">
+        <section className="hero-presentacion">
+            <section className="hero-section-info">
                 <div>
                     <h3>Hola de nuevo, soy yo!</h3>
                     <h1>Rodrigo Junco</h1>
@@ -17,13 +17,13 @@ const Main = () => {
                     <p>Me encargo de desarrollar aplicaciones web que coinciden con los requerimientos de los clientes.</p>
                 </div>
 
-                <div class="hero-iconos-contenedor">
+                <div className="hero-iconos-contenedor">
                     <a href="https://www.instagram.com/rodrigojunco.23/" target="_blank"><i class="bi bi-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/rodrigojuncodev/" target="_blank"><i class="bi bi-linkedin"></i></a>
                     <a href="https://github.com/RPJunco" target="_blank"><i class="bi bi-github"></i></a>
                 </div>
                 
-                <div class="boton-contenedor">
+                <div className="boton-contenedor">
                     <a href="./archivos/CV.pdf" download="./archivos/CV.pdf" target="_blank" class="boton">
                         Descargar CV
                     </a>
@@ -31,7 +31,7 @@ const Main = () => {
             </section>
         </section>
 
-        <section class="foto-contenedor">
+        <section className="foto-contenedor">
             <img src="./img/rodrigo-junco.jpg" alt="foto-perfil" />
         </section>
 
@@ -40,11 +40,11 @@ const Main = () => {
 
     <section id="acercaDe">
         
-        <section class="foto-contenedor">
+        <section className="foto-contenedor">
             <img src="./img/rodrigo-junco.jpg" alt="foto-perfil" />
         </section>
 
-        <section class="acercaDe-contenedor">
+        <section className="acercaDe-contenedor">
             <h2>Acerca de <span>Mi</span></h2>
             <h3>Desarrollador Web Fullstack Jr</h3>
             <p> 
@@ -56,8 +56,8 @@ const Main = () => {
                 manejo correcto del software para desarrollar 
                 aplicaciones que sean atractivas para los clientes.
             </p>
-            <div class="boton-contenedor">
-                <a href="#" class="boton">Ver Mas</a>
+            <div className="boton-contenedor">
+                <a href="#" className="boton">Ver Mas</a>
             </div>
         </section>
 
@@ -68,19 +68,19 @@ const Main = () => {
 
         <h2>Mis <span>Servicios</span></h2>
 
-        <section class="servicio-contenedor">
+        <section className="servicio-contenedor">
 
-            <div class="btn1">
+            <div className="btn1">
                 <h3>Desarrollo de aplicaciones FrontEnd</h3>
-                <a href="#"  class="boton">Leer Mas</a>
+                <a href="#"  className="boton">Leer Mas</a>
             </div>
-            <div class="btn2">
+            <div className="btn2">
                 <h3>Desarrollo de aplicaciones BackEnd</h3>
-                <a href="#"  class="boton">Leer Mas</a>
+                <a href="#"  className="boton">Leer Mas</a>
             </div>
-            <div class="btn3">
+            <div className="btn3">
                 <h3>Desarrollo de aplicaciones FullStack</h3>
-                <a href="#"  class="boton">Leer Mas</a>
+                <a href="#"  className="boton">Leer Mas</a>
             </div>
 
         </section>
@@ -91,10 +91,10 @@ const Main = () => {
 
     <section id="skills">
 
-        <section class="skills-contenedor">
+        <section className="skills-contenedor">
 
             <h2>Mis <span>Habilidades</span></h2>
-            <section class="skills-iconos">
+            <section className="skills-iconos">
 
                 <div>
                     <h3>Html</h3>
@@ -123,7 +123,7 @@ const Main = () => {
 
             </section>
 
-            <section class="skills-conocimientos">
+            <section className="skills-conocimientos">
 
                 <div>
                     <h3>Conocimiento de cada herramienta de software:</h3>
@@ -150,11 +150,11 @@ const Main = () => {
 
     <section id="portfolio">
 
-        <section class="portfolio-contenedor">
+        <section className="portfolio-contenedor">
 
             <h2>Mi <span>Portfolio</span></h2>
 
-            <section class="portfolio-proyectos">
+            <section className="portfolio-proyectos">
 
                 <div>
                     <a href="https://rpjunco.github.io/Travel-Agency-Login-page/" target="_blank"><img src="./img/portfolio/travel-agency-login-page.PNG" class="img-proyecto" alt="Travel-Agency-Login-page" /></a>
@@ -168,7 +168,7 @@ const Main = () => {
 
             </section>
 
-            <section class="portfolio-proyectos">
+            <section className="portfolio-proyectos">
 
                 <div>
                     <a href="https://github.com/RPJunco/records-management/tree/main" target="_blank"><img src="./img/portfolio/records-management.PNG" class="img-proyecto" alt="records-management" /></a>
