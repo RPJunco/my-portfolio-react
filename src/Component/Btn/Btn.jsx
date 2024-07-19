@@ -11,8 +11,12 @@ const Btn = ({ contenido, width }) => {
 
 Btn.propTypes = {
     contenido: PropTypes.string.isRequired,
-    width: PropTypes.number.isRequired,
+    width: PropTypes.string.isRequired,
 };
+
+Btn.defaultProps = {
+    width: '100%'
+}
 
 
 export default Btn;
