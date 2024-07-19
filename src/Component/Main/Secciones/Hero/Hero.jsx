@@ -1,4 +1,5 @@
 import './Hero.css'
+import Btn from '../../../Btn/Btn.js';
 
 const Hero = () => {
     return (
@@ -21,9 +22,7 @@ const Hero = () => {
                         <a href="https://github.com/RPJunco" target="_blank"><i className="bi bi-github"></i></a>
                     </div>
                     
-                    <div className="d-grid">
-                        <button className="btn" type="button">Descargar CV</button>
-                    </div>
+                    <Btn />
                 </section>
             </section>
 

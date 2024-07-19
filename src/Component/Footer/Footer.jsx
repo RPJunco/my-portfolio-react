@@ -1,5 +1,6 @@
 import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Btn from '../Btn.jsx'
 
 const Footer = () => {
     return (
@@ -32,9 +33,7 @@ const Footer = () => {
                 <textarea className="form-control" placeholder="Deja un comentario!!" id="floatingTextarea"></textarea>
                 <label htmlFor="floatingTextarea">Comments</label>
             </div>
-            <div className="d-grid">
-                <button className="btn" type="button">Enviar Mensaje</button>
-            </div>
+            <Btn />
 
         </footer>
     )

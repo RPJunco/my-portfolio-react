@@ -47,23 +47,6 @@
     width: 100%;
 }
 
-.btn {
-    color: var(--boton-color);
-    background-color: var(--boton-bgcolor);
-    margin: 20px;
-    padding: 25px 30px;
-    border-radius: 20px;
-    font-size: 24px;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: 0 0 20px rgb(134, 255, 255, 0.5);
-    text-shadow: 0.2px 0.8px 3px #000000;
-    transition: color 1.9s, background-color 1.9s;
-}
-
-.btn:hover {
-    background-color: var(--boton-hover-bgcolor);
-    color: var(--boton-hover-a-color);
+.acercaDe-contenedor h2 {
+    font-size: 35px;
 }

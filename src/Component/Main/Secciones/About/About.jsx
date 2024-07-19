@@ -1,4 +1,5 @@
 import './About.css'
+import Btn from '../../../Btn.jsx'
 
 const About = () => {
     return (
@@ -20,9 +21,7 @@ const About = () => {
                     manejo correcto del software para desarrollar 
                     aplicaciones que sean atractivas para los clientes.
                 </p>
-                <div className="d-grid">
-                        <button className="btn" type="button">Ver Mas</button>
-                </div>
+                <Btn />
             </div>
 
         </section>
