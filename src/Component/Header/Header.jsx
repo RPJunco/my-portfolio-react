@@ -1,5 +1,4 @@
 import './Header.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
     return (    
