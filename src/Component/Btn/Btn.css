@@ -6,10 +6,6 @@
     --btn-hover-color:#09121c;
 }
 
-.d-grid {
-    width: 50% !important;
-}
-
 .boton {
     color: var(--btn-color);
     background-color: var(--btn-bgcolor);
