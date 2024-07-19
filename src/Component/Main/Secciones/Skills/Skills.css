@@ -1,0 +1,43 @@
+:root{
+    --skills-bgc: #293b50;
+    --card-bgc: #293b50;
+    --card-color:white;
+}
+
+.skills {
+    width: 100%;
+    padding: 120px 0px;
+    background-color: var(--skills-bgc);
+}
+
+.skills .container-fluid .card {
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 15%;
+    height: 15%;
+    padding: 20px 0px;
+    color: var(--card-color);
+    background-color: var(--card-bgc);
+}
+
+.skills .container-fluid .card .icons {
+    width: 80px;
+    height: 80px;
+}
+
+.skills .container-fluid .skills-conocimiento .parrafo {
+    padding: 70px;
+    font-size: 25px;
+}
+
+.skills .container-fluid .graph {
+    border-radius: 0px;
+    margin: 0px;
+    border-radius: 7px;
+    box-shadow: 0 0 8px rgb(72, 73, 73);
+}
+
+.skills h2, .skills span{
+    font-size: 35px;
+}
