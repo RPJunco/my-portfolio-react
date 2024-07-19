@@ -1,4 +1,7 @@
 :root{
+
+    --footer-bgc:#293b50;
+
     --h2-span-color: #42d6ff;
 
     --form-control-bgc: #09121c;
@@ -12,7 +15,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 100px 0px;
+    padding: 100px 0px 70px 0px;
+    background-color: var(--footer-bgc);
 }
 
 .footer .container-fluid {
