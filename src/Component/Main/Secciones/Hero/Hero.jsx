@@ -1,5 +1,5 @@
 import './Hero.css'
-import Btn from '../../../Btn/Btn.js';
+import Btn from '../../../Btn/Btn.jsx';
 
 const Hero = () => {
     return (

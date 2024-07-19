@@ -1,5 +1,5 @@
 import './About.css'
-import Btn from '../../../Btn.jsx'
+import Btn from '../../../Btn/Btn.jsx'
 
 const About = () => {
     return (

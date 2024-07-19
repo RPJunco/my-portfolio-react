@@ -1,6 +1,6 @@
 import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Btn from '../Btn.jsx'
+import Btn from '../Btn/Btn.jsx'
 
 const Footer = () => {
     return (
