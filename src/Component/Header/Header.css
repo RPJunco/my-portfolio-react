@@ -10,7 +10,6 @@
 .header {
     width: 100%;
     background-color: var(--header-bgcolor);
-    position: fixed;
 }
 
 .navbar .container-fluid {

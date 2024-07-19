@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
     return (    
-        <header className="header" id='header'>
+        <header className="header fixed-top" id='header'>
 
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
