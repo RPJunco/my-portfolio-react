@@ -33,7 +33,7 @@ const Footer = () => {
                 <textarea className="form-control" placeholder="Deja un comentario!!" id="floatingTextarea"></textarea>
                 <label htmlFor="floatingTextarea">Comments</label>
             </div>
-            <Btn />
+            <Btn contenido='Enviar Mensaje'/>
 
         </footer>
     )

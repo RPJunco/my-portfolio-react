@@ -22,7 +22,7 @@ const Hero = () => {
                         <a href="https://github.com/RPJunco" target="_blank"><i className="bi bi-github"></i></a>
                     </div>
                     
-                    <Btn />
+                    <Btn contenido='Descargar CV'/>
                 </section>
             </section>
 
