@@ -1,35 +1,41 @@
 import './Footer.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
     return (
-        <footer id='footer-contenedor'>
+        <footer className='footer' id='contacto'>
+
             <h2>Interesante verdad? <span>Contactame!</span></h2>
 
-            <section>
+            <div className='container-fluid'>
 
-                <form>
-                    
-                    <section class="form-nombre-completo">
-                        <input type="text" name="nombres" placeholder="Nombre" />
-                        <input type="text" name="apellidos" placeholder="Apellido" />
-                    </section>
-                    <section class="form-info">
-                        <input type="number" name="telefono" placeholder="Telefono de contacto" />
-                        <input type="email" name="email" placeholder="Direccion de email" />
-                    </section>
-                    <section class="form-cuadro-texto">
-                        <textarea name="area-texto" placeholder=" Deje su mensaje"></textarea>
-                    </section>
-                    <section class="form-boton-envio">
-                        <button type="submit" class="boton" name="contacto" value="Enviar Mensaje">
-                            Enviar Mensaje
-                        </button>
-                    </section>
+                <div className="form-floating">
+                    <input type="text" className="form-control" id="floatingName" placeholder="Pedro" />
+                    <label htmlFor="floatingName">Nombre</label>
+                </div>
+                <div className="form-floating">
+                    <input type="text" className="form-control" id="floatingLastName" placeholder="Pascal" />
+                    <label htmlFor="floatingLastName">Apellido</label>
+                </div>
+                <div className="form-floating">
+                    <input type="tel" className="form-control" id="floatingPhoneNumber" placeholder="351*******" />
+                    <label htmlFor="floatingPhoneNumber">Telefono de contacto</label>
+                </div>
+                <div className="form-floating">
+                    <input type="email" className="form-control" id="floatingEmail" placeholder="Email" />
+                    <label htmlFor="floatingEmail">Direccion de email</label>
+                </div>
 
-                </form>
+            </div>
 
-            </section>
-            
+            <div className="form-floating form-container">
+                <textarea className="form-control" placeholder="Deja un comentario!!" id="floatingTextarea"></textarea>
+                <label htmlFor="floatingTextarea">Comments</label>
+            </div>
+            <div className="d-grid">
+                <button className="btn" type="button">Enviar Mensaje</button>
+            </div>
+
         </footer>
     )
 };
