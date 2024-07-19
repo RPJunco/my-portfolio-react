@@ -11,15 +11,15 @@ const Work = () => {
 
                 <div className="card mb-4">
                     <h3>Desarrollo de aplicaciones FrontEnd</h3>
-                    <Btn contenido='Leer Mas'/>
+                    <Btn contenido='Leer Mas' width='50%'/>
                 </div>
                 <div className="card mb-4">
                     <h3>Desarrollo de aplicaciones BackEnd</h3>
-                    <Btn contenido='Leer Mas'/>
+                    <Btn contenido='Leer Mas' width='50%'/>
                 </div>
                 <div className="card mb-4">
                     <h3>Desarrollo de aplicaciones FullStack</h3>
-                    <Btn contenido='Leer Mas'/>
+                    <Btn contenido='Leer Mas' width='50%'/>
                 </div>
 
             </section>

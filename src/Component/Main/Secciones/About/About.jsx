@@ -21,7 +21,7 @@ const About = () => {
                     manejo correcto del software para desarrollar 
                     aplicaciones que sean atractivas para los clientes.
                 </p>
-                <Btn contenido='Ver Mas'/>
+                <Btn contenido='Ver Mas' width='50%'/>
             </div>
 
         </section>
