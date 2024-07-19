@@ -4,11 +4,6 @@
     --form-control-bgc: #09121c;
     --form-control-label-color: #757575;
 
-    --btn-color: white;
-    --btn-bgcolor: #42d6ff;
-    --btn-hover-bgcolor: white;
-    --btn-hover-a-color: #09121c;
-
 }
 
 .footer{
@@ -20,7 +15,7 @@
     padding: 100px 0px;
 }
 
-.container-fluid {
+.footer .container-fluid {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -28,46 +23,47 @@
     justify-content: center;
 }
 
-.contacto h2, .contacto span {
+.footer h2, .footer span {
     font-size: 35px;
-    padding: 40px 0px 0px 0px;
-    margin: 50px 0px;
+    padding: 10px 0px;
+    margin: 10px 0px;
 }
 
-.form-control {
+.footer .form-control {
     background-color: var(--form-control-bgc);
     font-size: 20px;
 }
 
-.container-fluid .form-floating {
+.footer .container-fluid .form-floating {
     width: 40%;
     margin: 10px 20px;
 }
 
-.form-container {
-    width: 65%;
-    margin: 25px 0px;
-}
 
-textarea {
-    height: 300px !important;
+.footer .form-container textarea {
+    height: 300px;
     font-size: 25px;
+    width: 83%;
 }
 
-label {
+.footer .container-fluid .label-textarea{
+    margin: 0px 10%;
+}
+
+.footer .container-fluid label, .footer .form-container label {
     color: var(--form-control-label-color);
     font-size: 20px;
 }
 
-span {
+.footer span {
     color: var(--h2-span-color);
 }
 
-h2 {
+.footer h2 {
     padding: 20px;
     font-weight: bold;
 }
 
-input {
+.footer input {
     height: 70px !important;
 }
