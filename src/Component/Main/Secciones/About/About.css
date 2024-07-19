@@ -1,0 +1,69 @@
+:root {
+    --acercaDe-bgcolor: #293b50;
+    --acercaDe-h3-color: #fff;
+    --acercaDe-h2-color: #fff;
+    --acercaDe-p-color: #fff;
+}
+
+#acercaDe {
+    width: 100%;
+    background-color: var(--acercaDe-bgcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0px;
+}
+
+.acercaDe-contenedor {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px 80px;
+}
+
+.acercaDe-contenedor h2{
+    font-size: 35px;
+    color: var(--acercaDe-h2-color);
+}
+
+.acercaDe-contenedor span {
+    font-size: 35px;
+}
+
+.acercaDe-contenedor h3 {
+    color: var(--acercaDe-h3-color);
+    font-size: 25px;
+}
+
+.acercaDe-contenedor p{
+    font-size: 20px;
+    color: var(--acercaDe-p-color);
+    width: 450px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.d-grid {
+    width: 100%;
+}
+
+.btn {
+    color: var(--boton-color);
+    background-color: var(--boton-bgcolor);
+    margin: 20px;
+    padding: 25px 30px;
+    border-radius: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgb(134, 255, 255, 0.5);
+    text-shadow: 0.2px 0.8px 3px #000000;
+    transition: color 1.9s, background-color 1.9s;
+}
+
+.btn:hover {
+    background-color: var(--boton-hover-bgcolor);
+    color: var(--boton-hover-a-color);
+}
