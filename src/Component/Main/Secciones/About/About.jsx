@@ -2,13 +2,13 @@ import './About.css'
 
 const About = () => {
     return (
-        <section id="acercaDe">
+        <section id="acercaDe" className='container-fluid'>
         
             <section className="foto-contenedor">
                 <img src="./img/rodrigo-junco.jpg" alt="foto-perfil" />
             </section>
 
-            <section className="acercaDe-contenedor">
+            <div className="acercaDe-contenedor">
                 <h2>Acerca de <span>Mi</span></h2>
                 <h3>Desarrollador Web Fullstack Jr</h3>
                 <p> 
@@ -20,10 +20,10 @@ const About = () => {
                     manejo correcto del software para desarrollar 
                     aplicaciones que sean atractivas para los clientes.
                 </p>
-                <div className="boton-contenedor">
-                    <a href="#" className="boton">Ver Mas</a>
+                <div className="d-grid">
+                        <button className="btn" type="button">Ver Mas</button>
                 </div>
-            </section>
+            </div>
 
         </section>
     )
