@@ -4,11 +4,11 @@ const Skills = () => {
     return (
         <section id="skills" className='skills'>
 
-            <section className="container-fluid">
+            <h2>Mis <span>Habilidades</span></h2>
 
-                <h2 className='m-5'>Mis <span>Habilidades</span></h2>
-
-                <section className="container-fluid justify-content-evenly mb-4">
+            <section className="container-fluid m-5">
+                
+                <section className="container justify-content-between mb-xxl-5">
 
                     <div className='card'>
                         <h3>Html</h3>
@@ -37,20 +37,20 @@ const Skills = () => {
 
                 </section>
 
-                <section className="container-fluid m-5 justify-content-center flex-xl-nowrap">
+                <section className="d-flex flex-nowrap">
 
-                    <div className='skills-conocimiento'>
+                    <div className='skills-conocimiento p-2 flex-grow-1'>
                         <h3>Conocimiento de cada herramienta de software:</h3>
                         <p className='parrafo'>
                             En los siguientes graficos vemos una pequeña muestra de la cantidad de veces que he utilizado estas tecnologías para desarrollar software.
                         </p>
                     </div>
 
-                    <div className='barras'>
+                    <div className='barras p-2 flex-grow-1'>
                         <h4>Conocimiento representado en barras horizontales </h4>
                         <img src="./img/skills/grafico-barras-horizontal.PNG" alt="grafico-barras-estadistico" className='graph'/>
                     </div>
-                    <div className='torta'>
+                    <div className='torta p-2 flex-grow-1'>
                         <h4>Conocimiento representado en grafico de torta </h4>
                         <img src="./img/skills/grafico-torta.PNG" alt="grafico-torta-estadistico" className='graph'/>
                     </div>
