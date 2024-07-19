@@ -1,9 +1,10 @@
 import './Btn.css'
 
-const Btn = () => {
+const Btn = (props) => {
+    let cont = props.contenido;
     return (
         <div className="d-grid">
-            <button className="btn" type="button"></button>
+            <button className="btn" type="button">{cont}</button>
         </div>
     )
 };
