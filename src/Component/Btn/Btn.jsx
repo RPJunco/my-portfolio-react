@@ -4,7 +4,7 @@ import './Btn.css'
 const Btn = ({ contenido }) => {
     return (
         <div className="d-grid">
-            <button className="btn" type="button">{contenido}</button>
+            <button className="boton" type="button">{contenido}</button>
         </div>
     )
 };

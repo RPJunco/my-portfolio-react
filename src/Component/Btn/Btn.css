@@ -1,8 +1,20 @@
-.btn {
+:root{
+    --btn-color:white;
+    --btn-bgcolor:#42d6ff;
+
+    --btn-hover-bgcolor:white;
+    --btn-hover-color:#09121c;
+}
+
+.d-grid {
+    width: 50% !important;
+}
+
+.boton {
     color: var(--btn-color);
     background-color: var(--btn-bgcolor);
     margin: 20px;
-    padding: 25px 30px;
+    padding: 25px 20px;
     border-radius: 20px;
     font-size: 24px;
     text-decoration: none;
@@ -14,7 +26,7 @@
     transition: color 1.9s, background-color 1.9s;
 }
 
-.btn:hover {
+.boton:hover {
     background-color: var(--btn-hover-bgcolor);
-    color: var(--btn-hover-a-color);
+    color: var(--btn-hover-color);
 }
