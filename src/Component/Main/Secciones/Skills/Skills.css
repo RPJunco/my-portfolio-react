@@ -6,22 +6,31 @@
 
 .skills {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 120px 0px;
     background-color: var(--skills-bgc);
 }
 
-.skills .container-fluid .card {
+.skills .container-fluid .container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    border: none;
-    width: 15%;
-    height: 15%;
-    padding: 20px 0px;
-    color: var(--card-color);
-    background-color: var(--card-bgc);
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.skills .container-fluid .card .icons {
+.skills .container-fluid .container .card {
+    border: none;
+    align-items: center;
+    width: auto;
+    background-color: var(--card-bgc);
+    color: var(--card-color);
+}
+
+.skills .container-fluid .container .card .icons {
     width: 80px;
     height: 80px;
 }
@@ -31,7 +40,7 @@
     font-size: 25px;
 }
 
-.skills .container-fluid .graph {
+.skills .container-fluid .container .graph {
     border-radius: 0px;
     margin: 0px;
     border-radius: 7px;
