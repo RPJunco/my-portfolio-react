@@ -11,6 +11,7 @@ const Btn = ({ contenido, width }) => {
 
 Btn.propTypes = {
     contenido: PropTypes.string.isRequired,
+    width: PropTypes.number.isRequired,
 };
 
 
