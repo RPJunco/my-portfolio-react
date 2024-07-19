@@ -1,0 +1,94 @@
+:root{
+    --h2-span-color: #42d6ff;
+
+    --form-control-bgc: #09121c;
+    --form-control-label-color: #757575;
+
+    --btn-color: white;
+    --btn-bgcolor: #42d6ff;
+    --btn-hover-bgcolor: white;
+    --btn-hover-a-color: #09121c;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.container-fluid {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto h2, .contacto span {
+    font-size: 35px;
+    padding: 40px 0px 0px 0px;
+    margin: 50px 0px;
+}
+
+.form-control {
+    background-color: var(--form-control-bgc);
+    font-size: 20px;
+}
+
+.container-fluid .form-floating {
+    width: 40%;
+    margin: 10px 20px;
+}
+
+.form-container {
+    width: 65%;
+    margin: 25px 0px;
+}
+
+.btn {
+    color: var(--btn-color);
+    background-color: var(--btn-bgcolor);
+    margin: 20px;
+    padding: 25px 30px;
+    border-radius: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgb(134, 255, 255, 0.5);
+    text-shadow: 0.2px 0.8px 3px #000000;
+    transition: color 1.9s, background-color 1.9s;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-bgcolor);
+    color: var(--btn-hover-a-color);
+}
+
+textarea {
+    height: 300px !important;
+    font-size: 25px;
+}
+
+label {
+    color: var(--form-control-label-color);
+    font-size: 20px;
+}
+
+span {
+    color: var(--h2-span-color);
+}
+
+h2 {
+    padding: 20px;
+    font-weight: bold;
+}
+
+input {
+    height: 70px !important;
+}
