@@ -1,12 +1,17 @@
+import PropTypes from 'prop-types';
 import './Btn.css'
 
-const Btn = (props) => {
-    let cont = props.contenido;
+const Btn = ({ contenido }) => {
     return (
         <div className="d-grid">
-            <button className="btn" type="button">{cont}</button>
+            <button className="btn" type="button">{contenido}</button>
         </div>
     )
 };
+
+Btn.propTypes = {
+    contenido: PropTypes.string.isRequired,
+};
+
 
 export default Btn;
