@@ -17,7 +17,11 @@
 }
 
 .navbar-brand {
-    padding: 0px 50px;
+    padding: 0 4%;
+}
+
+.header .navbar .container-fluid .navbar-collapse .navbar-nav {
+    padding-right: 3%;
 }
 
 .nav-link{
