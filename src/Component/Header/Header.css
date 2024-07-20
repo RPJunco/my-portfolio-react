@@ -12,12 +12,6 @@
     background-color: var(--header-bgcolor);
 }
 
-.navbar .container-fluid {
-    display: flex;
-    justify-content: space-around !important;
-    width: 100%;
-}
-
 .navbar {
     padding: 0px !important;
 }
@@ -38,6 +32,3 @@
     color: var(--nav-link-hover-color) !important;
 }
 
-.menu-icono {
-    display: none;
-}
