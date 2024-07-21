@@ -4,31 +4,41 @@
 }
 
 .servicios {
-    width: 100%;
-    padding: 160px 0px;
+    padding: 170px 20px;
+    background-color: var(--servicios-bgcolor);
+    text-align: center;
 }
 
-.servicios .container-fluid {
+.servicios h2 {
+    font-size: 2.5rem;
+    margin: 0px 0px 130px 0px;
+}
+
+.servicios .card {
+    --bs-card-bg: unset !important;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 1px 10px rgba(173, 235, 255, 0.945);
+    transition: transform 0.3s;
+}
+
+.servicios .card:hover {
+    transform: translateY(-5px);
+}
+
+.servicios .card h3 {
+    font-size: 1.5rem;
+    margin: 35px 0px;
+    padding: 17px 0px;
+    color: var(--card-color);
+}
+
+.servicios .card-body {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 120px 0px;
-}
-
-.servicios .container-fluid .card{
-    align-items: center;
-    padding: 35px 10px;
-    border-radius: 50px;
-    color: var(--card-color);
+    justify-content: center;
+    flex-direction: column;
+    padding: 8%;
     background-color: var(--card-bgc);
-}
-
-.servicios h2, .servicios span {
-    font-size: 35px;
-    padding: 20px 0px;
-}
-
-.servicios h3 {
-    font-size: 25px;
-    padding: 20px;
+    border-radius: 40px;
 }
