@@ -3,4 +3,16 @@
   margin: 0 auto;
   padding: 0px;
   text-align: center;
+
+  --nav-link-hover-bgc: white;
+  --nav-link-hover-color: #070e1f;
+}
+
+.nav-link{
+  transition: background-color 1.9s, color 1.9s !important;
+}
+
+.nav-link:hover {
+  background-color: var(--nav-link-hover-bgc);
+  color: var(--nav-link-hover-color) !important;
 }
