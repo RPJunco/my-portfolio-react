@@ -3,10 +3,11 @@
 } */
 
 .portfolio {
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 .img-proyecto {
+    max-width: 100%;
     width: 16vw;
     height: 24vh;
     border-radius: 10px;
