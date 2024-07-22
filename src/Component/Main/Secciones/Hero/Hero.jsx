@@ -18,7 +18,7 @@ const Hero = () => {
                             <a href="https://www.linkedin.com/in/rodrigojuncodev/" target="_blank"><i className="bi bi-linkedin"></i></a>
                             <a href="https://github.com/RPJunco" target="_blank"><i className="bi bi-github"></i></a>
                         </div>
-                        <Btn contenido="Descargar CV" width="50%" />
+                        <Btn contenido="Descargar CV" width="50%" position='start'/>
                     </div>
                 </section>
                 <section className="foto-contenedor col-lg-6 col-md-12 text-center">
