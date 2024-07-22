@@ -5,48 +5,58 @@
 }
 
 .skills {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 120px 0px;
+    padding: 150px 20px;
     background-color: var(--skills-bgc);
+    text-align: center;
 }
 
-.skills .container-fluid .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
-.skills .container-fluid .container .card {
+.skills .card {
+    background-color: var(--card-bgcolor); /* Usa tu color de fondo deseado */
     border: none;
-    align-items: center;
-    width: auto;
-    background-color: var(--card-bgc);
-    color: var(--card-color);
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding: 20px;
 }
 
-.skills .container-fluid .container .card .icons {
-    width: 80px;
-    height: 80px;
+.skills .card:hover {
+    transform: translateY(-5px);
 }
 
-.skills .container-fluid .skills-conocimiento .parrafo {
-    padding: 70px;
-    font-size: 25px;
+.skills .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
 }
 
-.skills .container-fluid .container .graph {
-    border-radius: 0px;
-    margin: 0px;
-    border-radius: 7px;
-    box-shadow: 0 0 8px rgb(72, 73, 73);
+.skills .icons {
+    max-width: 90px;
+    height: auto;
 }
 
-.skills h2, .skills span{
-    font-size: 35px;
+.skills-conocimiento, .barras, .torta {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.skills-conocimiento h3, .barras h4, .torta h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.skills .parrafo {
+    margin: 100px 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.skills .graph {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
