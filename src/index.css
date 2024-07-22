@@ -11,10 +11,27 @@
 :root{
   --body-color: #fff;
   --body-bgcolor: #011225;
+  --span-color: #42d6ff;
 }
 
 body {
   font-family: "Rubik", sans-serif;
   color: var(--body-color);
   background-color: var(--body-bgcolor);
+}
+
+h1, h2, h3, p {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+a {
+  font-weight: 400px;
+}
+
+span {
+  color: var(--span-color);
 }
