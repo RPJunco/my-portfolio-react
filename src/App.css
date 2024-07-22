@@ -6,7 +6,12 @@
 
   --nav-link-hover-bgc: white;
   --nav-link-hover-color: #070e1f;
+
+  --hero-icon-color: #42d6ff;
+  --hero-icon-hover-color: #fff;
 }
+
+/*Estilos aplicados al Header*/
 
 .nav-link{
   transition: background-color 1.9s, color 1.9s !important;
@@ -15,4 +20,31 @@
 .nav-link:hover {
   background-color: var(--nav-link-hover-bgc);
   color: var(--nav-link-hover-color) !important;
+}
+
+/*Estilos aplicados al Hero*/
+
+.hero-section-info {
+  padding: 20px;
+  margin: auto auto auto 150px;
+}
+
+
+.hero-iconos-contenedor i {
+  margin: 0px 25px;
+  color: var(--hero-icon-color);
+  font-size: 45px;
+  transition: color 1.9s;
+}
+
+.hero-presentacion i:hover {
+  color: var(--hero-icon-hover-color);
+}
+
+.foto-contenedor {
+  border-radius: 100%;
+  max-width: 100%;
+  height: auto;
+  width: 580px;
+  box-shadow: 0 0 40px rgb(134, 255, 255, 0.9);
 }
