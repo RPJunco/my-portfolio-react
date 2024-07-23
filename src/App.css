@@ -73,6 +73,18 @@
   padding: 10px 80px;
 }
 
+/*Estilos aplicados al componente Work*/
+
+.servicios .card {
+  border-radius: 40px;
+  box-shadow: 0 1px 10px rgba(173, 235, 255, 0.945);
+  transition: transform 0.3s;
+}
+
+.servicios .card:hover {
+  transform: translateY(-5px);
+}
+
 .row {
   margin-right: 0px !important;
 }
