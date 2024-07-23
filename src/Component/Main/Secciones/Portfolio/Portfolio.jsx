@@ -1,4 +1,3 @@
-import './Portfolio.css'
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Portfolio = () => {
