@@ -50,31 +50,6 @@
 /*Estilos aplicados al About*/
 
 
-.acercaDe-contenedor p {
-  font-size: 20px;
-  color: var(--acercaDe-p-color);
-  text-align: justify;
-}
-
-.acercaDe-contenedor {
-  width: 40% !important;
-  padding: 20px;
-}
-
-.acercaDe-contenedor h2 {
-  text-align: center;
-  font-size: 2.5rem;
-}
-
-.acercaDe-contenedor h3 {
-  font-size: 2rem;
-}
-
-.acercaDe-contenedor p {
-  font-size: 1rem;
-  padding: 10px 80px;
-}
-
 /*Estilos aplicados al componente Work*/
 
 .servicios .card {
@@ -141,9 +116,5 @@
 }
 
 .foto-contenedor {
-  border-radius: 100%;
-  max-width: 100%;
-  height: auto;
-  width: 580px;
-  box-shadow: 0 0 40px rgb(134, 255, 255, 0.9);
+  display: block;
 }
