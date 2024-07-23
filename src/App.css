@@ -9,6 +9,10 @@
 
   --hero-icon-color: #42d6ff;
   --hero-icon-hover-color: #fff;
+
+  --acercaDe-h3-color: #fff;
+  --acercaDe-h2-color: #fff;
+  --acercaDe-p-color: #fff;
 }
 
 /*Estilos aplicados al Header*/
@@ -39,6 +43,38 @@
 
 .hero-presentacion i:hover {
   color: var(--hero-icon-hover-color);
+}
+
+/*Estilos aplicados al About*/
+
+
+.acercaDe-contenedor p {
+  font-size: 20px;
+  color: var(--acercaDe-p-color);
+  text-align: justify;
+}
+
+.acercaDe-contenedor {
+  width: 40% !important;
+  padding: 20px;
+}
+
+.acercaDe-contenedor h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.acercaDe-contenedor h3 {
+  font-size: 2rem;
+}
+
+.acercaDe-contenedor p {
+  font-size: 1rem;
+  padding: 10px 80px;
+}
+
+.row {
+  margin-right: 0px !important;
 }
 
 .foto-contenedor {
