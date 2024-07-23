@@ -78,7 +78,6 @@
 /*Estilos aplicados al componente Work*/
 
 .servicios .card {
-  border-radius: 40px;
   box-shadow: 0 1px 10px rgba(173, 235, 255, 0.945);
   transition: transform 0.3s;
 }
