@@ -1,75 +1,76 @@
 import './Skills.css'
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Skills = () => {
     return (
-        <section id="skills" className='skills'>
-            <h2>Mis <span>Habilidades</span></h2>
-            <section className="container-fluid my-5">
-                
-                <section className="d-flex flex-row flex-wrap justify-content-between mb-5">
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Html</h3>
-                            <img src="./img/skills/html.png" alt="Html" className='icons mx-auto'/>
-                        </div>
+        <Container 
+        fluid
+        id='skills'
+        className='skills my-5 align-items-center'
+        style={{ padding: '150px 20px', backgroundColor: '#293b50' }}
+        >
+            <h2 className='mb-5'>Mis <span>Habilidades</span></h2>
+            <Row className='justify-content-between mb-5'>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>HTML</h3>
+                        <img src="./img/skills/html.png" alt="Html" className='icons h-auto mx-auto'/>
                     </div>
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Css</h3>
-                            <img src="./img/skills/css.png" alt="Css" className='icons mx-auto'/>
-                        </div>
+                </Col>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>CSS</h3>
+                        <img src="./img/skills/css.png" alt="Css" className='icons h-auto mx-auto'/>
                     </div>
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Git</h3>
-                            <img src="./img/skills/git.png" alt="Git" className='icons mx-auto'/>
-                        </div>
+                </Col>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>Git</h3>
+                        <img src="./img/skills/git.png" alt="Git" className='icons h-auto mx-auto'/>
                     </div>
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Javascript</h3>
-                            <img src="./img/skills/js.png" alt="Javascript" className='icons mx-auto'/>
-                        </div>
+                </Col>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>Javascript</h3>
+                        <img src="./img/skills/js.png" alt="Js" className='icons h-auto mx-auto'/>
                     </div>
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Python</h3>
-                            <img src="./img/skills/python.png" alt="Python" className='icons mx-auto'/>
-                        </div>
+                </Col>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>Python</h3>
+                        <img src="./img/skills/python.png" alt="Python" className='icons h-auto mx-auto'/>
                     </div>
-                    <div className='col-lg-2 col-md-3 col-sm-4 mb-4'>
-                        <div className='card h-100 text-center'>
-                            <h3>Haskell</h3>
-                            <img src="./img/skills/haskell.png" alt="Haskell" className='icons mx-auto'/>
-                        </div>
+                </Col>
+                <Col lg={2} md={4} sm={6} className='mb-4'>
+                    <div className='card h-100 text-center border-0 p-2'>
+                        <h3 className='mb-1'>Haskell</h3>
+                        <img src="./img/skills/haskell.png" alt="Haskell" className='icons h-auto mx-auto'/>
                     </div>
-                </section>
-
-                <section className="row">
-                    <div className='col-lg-4 col-md-6 mb-4'>
-                        <div className='skills-conocimiento'>
-                            <h3>Conocimiento de cada herramienta de software:</h3>
-                            <p className='parrafo'>
-                                En los siguientes graficos vemos una pequeña muestra de la cantidad de veces que he utilizado estas tecnologías para desarrollar software.
-                            </p>
-                        </div>
+                </Col>
+            </Row>
+            <Row className='align-items-center justify-content-around'>
+                <Col lg={4} md={12} className='mb-5'>
+                    <div className='skills-conocimiento border-0'>
+                        <h3 className='mb-4'>Conocimiento de cada herramienta de software:</h3>
+                        <p className='parrafo'>
+                            En los siguientes graficos vemos una pequeña muestra de la cantidad de veces que he utilizado estas tecnologías para desarrollar software.
+                        </p>
                     </div>
-                    <div className='col-lg-4 col-md-6 mb-4'>
-                        <div className='barras'>
-                            <h4>Conocimiento representado en barras horizontales </h4>
-                            <img src="./img/skills/grafico-barras-horizontal.PNG" alt="grafico-barras-estadistico" className='graph img-fluid'/>
-                        </div>
+                </Col>
+                <Col lg={4} md={12} className='mb-1'>
+                    <div className='barras border-0'>
+                        <h4 className='mb-4'>Conocimiento representado en barras horizontales </h4>
+                        <img src="./img/skills/grafico-barras-horizontal.PNG" alt="grafico-barras-estadistico" className='graph m-0 img-fluid h-auto'/>
                     </div>
-                    <div className='col-lg-4 col-md-6 mb-4'>
-                        <div className='torta'>
-                            <h4>Conocimiento representado en grafico de torta </h4>
-                            <img src="./img/skills/grafico-torta.PNG" alt="grafico-torta-estadistico" className='graph img-fluid'/>
-                        </div>
+                </Col>
+                <Col lg={4} md={12} className='mb-1'>
+                    <div className='torta border-0'>
+                        <h4 className='mb-4'>Conocimiento representado en grafico de torta </h4>
+                        <img src="./img/skills/grafico-torta.PNG" alt="grafico-torta-estadistico" className='graph m-0 img-fluid h-auto'/>
                     </div>
-                </section>
-
-            </section>
-        </section>
+                </Col>
+            </Row>
+        </Container>
     )
 };
 

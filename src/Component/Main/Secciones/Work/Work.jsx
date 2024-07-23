@@ -16,7 +16,7 @@ const Work = () => {
                         <div className="card h-100 border-0">
                             <div className="card-body" style={{ backgroundColor: '#293b50', borderRadius: '40px' }}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Frontend</h3>
-                                <Btn contenido='Leer Mas' width='60%' position='center'/>
+                                <Btn contenido='Leer Mas' width='50%' position='center'/>
                             </div>
                         </div>
                     </Col>
@@ -24,7 +24,7 @@ const Work = () => {
                         <div className="card h-100 border-0">
                             <div className="card-body" style={{ backgroundColor: '#293b50', borderRadius: '40px' }}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Backend</h3>
-                                <Btn contenido='Leer Mas' width='60%' position='center'/>
+                                <Btn contenido='Leer Mas' width='50%' position='center'/>
                             </div>
                         </div>
                     </Col>
@@ -32,7 +32,7 @@ const Work = () => {
                         <div className="card h-100 border-0">
                             <div className="card-body" style={{ backgroundColor: '#293b50', borderRadius: '40px' }}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Fullstack</h3>
-                                <Btn contenido='Leer Mas' width='60%' position='center'/>
+                                <Btn contenido='Leer Mas' width='50%' position='center'/>
                             </div>
                         </div>
                     </Col>
