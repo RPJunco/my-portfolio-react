@@ -3,7 +3,7 @@ import './Btn.css'
 
 const Btn = ({ contenido, width, position }) => {
     return (
-        <div className="d-grid" style={{ width:width , justifyContent:position }}>
+        <div className="d-grid w-100" style={{ width:width , justifyContent:position }}>
             <button className="boton" type="button">{contenido}</button>
         </div>
     )
