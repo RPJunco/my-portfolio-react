@@ -13,6 +13,8 @@
   --acercaDe-h3-color: #fff;
   --acercaDe-h2-color: #fff;
   --acercaDe-p-color: #fff;
+
+  --card-bgc: #293b50;
 }
 
 /*Estilos aplicados al Header*/
@@ -83,6 +85,38 @@
 
 .servicios .card:hover {
   transform: translateY(-5px);
+}
+
+/*Estilos aplicados al componente Skills*/
+
+.skills .card {
+  background-color: var(--card-bgc); /* Usa tu color de fondo deseado */
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.skills .card:hover {
+  transform: translateY(-5px);
+}
+
+.skills .icons {
+  max-width: 90px;
+}
+
+.skills-conocimiento, .barras, .torta {
+  border-radius: 10px;
+  padding: 20px 0px;
+}
+
+.skills .parrafo {
+  margin: 100px 20px;
+  text-align: justify;
+}
+
+.skills .graph {
+  max-width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgb(72, 73, 73);
 }
 
 .row {
