@@ -1,4 +1,3 @@
-import './Main.css'
 import Hero from './Secciones/Hero/Hero.jsx';
 import About from './Secciones/About/About.jsx';
 import Work from './Secciones/Work/Work.jsx';
