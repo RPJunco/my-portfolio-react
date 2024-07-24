@@ -9,7 +9,6 @@ const Hero = () => {
     useEffect(() => {
         const manejarTamanio = () => {
             const ancho = window.innerWidth;
-            console.log(ancho);
             if (ancho >= 1400){
                 setBtnPosition('start');
             }else{
