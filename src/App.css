@@ -30,12 +30,6 @@
 
 /*Estilos aplicados al Hero*/
 
-.hero-section-info {
-  padding: 20px;
-  margin: auto auto auto 150px;
-}
-
-
 .hero-iconos-contenedor i {
   margin: 0px 25px;
   color: var(--hero-icon-color);
