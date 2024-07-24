@@ -28,7 +28,7 @@ const Hero = () => {
     return (
         <Container 
         fluid
-        className='mb-0' 
+        className='pb-sm-4 pb-xxl-5' 
         id='inicio'
         style={{ padding:'170px 0px' }}
         >
@@ -46,6 +46,7 @@ const Hero = () => {
                         <Card 
                         className='hero-iconos-contenedor d-flex justify-content-xxl-start align-items-xxl-start justify-content-center align-items-center flex-row' 
                         style={{ backgroundColor: '#011225' }}
+                        border='0'
                         >
                             <Card.Link href="https://www.instagram.com/rodrigojunco.23/" target="_blank">
                                 <i className="bi bi-instagram"></i>
@@ -57,7 +58,7 @@ const Hero = () => {
                                 <i className="bi bi-github"></i>
                             </Card.Link>
                         </Card>
-                        <Card style={{ backgroundColor: '#011225' }}>
+                        <Card style={{ backgroundColor: '#011225' }} border='0'>
                             <Btn contenido="Descargar CV" width="50%" position={btnPosition}/>
                         </Card>
                     </Card>
