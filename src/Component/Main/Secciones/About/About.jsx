@@ -5,14 +5,17 @@ import { useEffect, useState } from 'react';
 const About = () => {
 
     const[btnPosition, setBtnPosition] = useState('center');
+    const[paddingCustom, setPaddingCustom] = useState('170px 0px');
 
     useEffect(() => {
         const manejarTamanio = () => {
             const ancho = window.innerWidth;
             if (ancho >= 1400){
                 setBtnPosition('start');
+                setPaddingCustom('170px 0px')
             }else{
                 setBtnPosition('center');
+                setPaddingCustom('100px 0px')
             }
         };
 
@@ -29,9 +32,9 @@ const About = () => {
         <Container 
         fluid 
         id='acercaDe'
-        style={{ backgroundColor: '#293b50', padding: '170px 0px' }}
+        style={{ backgroundColor: '#293b50', padding: paddingCustom }}
         >
-            <Row className='justify-content-center align-items-center mb-5'>
+            <Row className='justify-content-center align-items-center'>
                 <Col lg={6} md={12} className='text-center d-xxl-block d-none'>
                     <Image src="./img/rodrigo-junco.jpg" alt="foto-perfil" style={{ boxShadow: '0 0 40px rgb(134, 255, 255, 0.9' }} roundedCircle fluid width='70%'/>
                 </Col>
