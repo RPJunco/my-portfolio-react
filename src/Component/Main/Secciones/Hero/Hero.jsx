@@ -5,14 +5,17 @@ import { useState, useEffect } from 'react';
 const Hero = () => {
 
     const[btnPosition, setBtnPosition] = useState('center');
+    const[paddingCustom, setPaddingCustom] = useState('170px 0px 170px 0px');
 
     useEffect(() => {
         const manejarTamanio = () => {
             const ancho = window.innerWidth;
             if (ancho >= 1400){
                 setBtnPosition('start');
+                setPaddingCustom('170px 0px 170px 0px');
             }else{
                 setBtnPosition('center');
+                setPaddingCustom('100px 0px 0px 0px');
             }
         };
 
@@ -28,9 +31,8 @@ const Hero = () => {
     return (
         <Container 
         fluid
-        className='pb-sm-4 pb-xxl-5' 
         id='inicio'
-        style={{ padding:'170px 0px' }}
+        style={{ padding: paddingCustom }}
         >
             <Row className='justify-content-center align-items-center mb-5'>
                 <Col lg={6} md={12} className='mb-5'>
