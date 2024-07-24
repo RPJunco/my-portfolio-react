@@ -30,14 +30,14 @@
 
 /*Estilos aplicados al Hero*/
 
-.hero-iconos-contenedor i {
+.icons {
   margin: 0px 25px;
   color: var(--hero-icon-color);
   font-size: 45px;
   transition: color 1.9s;
 }
 
-.hero-presentacion i:hover {
+.icons:hover {
   color: var(--hero-icon-hover-color);
 }
 
