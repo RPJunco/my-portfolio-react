@@ -46,7 +46,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
                 <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
                 <Nav
-                    className="my-2 my-lg-0 pe-xxl-5"
+                    className="my-2 my-lg-0"
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
