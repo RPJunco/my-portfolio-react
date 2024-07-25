@@ -1,9 +1,6 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-scroll'
 import { useState, useEffect } from 'react';
-import Image from 'react-bootstrap/Image';
+import { Image, Container, Nav, Navbar } from 'react-bootstrap';
 
 function Header() {
 
