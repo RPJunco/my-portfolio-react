@@ -41,7 +41,7 @@ function Header() {
         <Navbar expand="xxl" className="fixed-top pb-1" style={{ backgroundColor: '#070e1f'}}>
             <Container fluid style={{ justifyContent: 'space-around' }}>
                 <Navbar.Brand href="#logo" style={{ padding: '0 4%' }}>
-                    <Image src="./img/logo.png" alt='logo-portfolio' fluid style={{ width: '75%' }} />
+                    <Image src="../../../public/img/logo.PNG" alt='logo-portfolio' style={{ width: '75%' }} fluid />
                 </Navbar.Brand> 
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
                 <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
