@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll'
 import { useState, useEffect } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Image } from 'react-bootstrap';
 
 function Header() {
 
@@ -41,7 +41,7 @@ function Header() {
         <Navbar expand="xxl" className="fixed-top pb-1" style={{ backgroundColor: '#070e1f'}}>
             <Container fluid style={{ justifyContent: 'space-around' }}>
                 <Navbar.Brand href="#logo" style={{ padding: '0 4%' }}>
-                    <img src="../../../public/img/logo.PNG" alt="logo-header" style={{ width: '75%'}} className='img-fluid' />
+                    <img src="./public/img/logo.PNG" alt="logo-portfolio" />
                 </Navbar.Brand> 
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
                 <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
