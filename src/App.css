@@ -4,7 +4,7 @@
   padding: 0px;
   text-align: center;
 
-  --nav-link-hover-bgc: white;
+  --nav-link-hover-bgc: #42d6ff;
   --nav-link-hover-color: #070e1f;
 
   --hero-icon-color: #42d6ff;
@@ -19,13 +19,20 @@
 
 /*Estilos aplicados al Header*/
 
-.nav-link{
+.nav-item {
+  cursor: pointer;
   transition: background-color 1.9s, color 1.9s !important;
 }
 
-.nav-link:hover {
+.nav-item:hover{
+  color: var(--nav-link-hover-color);
   background-color: var(--nav-link-hover-bgc);
-  color: var(--nav-link-hover-color) !important;
+}
+
+.nav-item .active {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*Estilos aplicados al Hero*/
