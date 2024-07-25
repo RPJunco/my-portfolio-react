@@ -25,7 +25,7 @@ function Header() {
                 setOffSetCustom(-120);
                 setPaddingCustom('30px 125px');
             }else{
-                setOffSetCustom(-140);
+                setOffSetCustom(-150);
                 setPaddingCustom('30px 90px');
             }
         };
@@ -40,7 +40,7 @@ function Header() {
     }, []);
 
     return (    
-        <Navbar expand="xxl" className="fixed-top p-0" style={{ backgroundColor: '#070e1f'}}>
+        <Navbar expand="xxl" className="fixed-top pb-1" style={{ backgroundColor: '#070e1f'}}>
             <Container fluid style={{ justifyContent: 'space-around' }}>
                 <Navbar.Brand href="#logo" style={{ padding: '0 4%' }}><img src="./img/logo.PNG" alt="logo-portofolio" /></Navbar.Brand> 
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
