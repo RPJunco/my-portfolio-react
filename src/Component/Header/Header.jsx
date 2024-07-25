@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-scroll'
 import { useState, useEffect } from 'react';
+import Image from 'react-bootstrap/Image';
 
 function Header() {
 
@@ -42,11 +43,13 @@ function Header() {
     return (    
         <Navbar expand="xxl" className="fixed-top pb-1" style={{ backgroundColor: '#070e1f'}}>
             <Container fluid style={{ justifyContent: 'space-around' }}>
-                <Navbar.Brand href="#logo" style={{ padding: '0 4%' }}><img src="./img/logo.PNG" alt="logo-portofolio" /></Navbar.Brand> 
+                <Navbar.Brand href="#logo" style={{ padding: '0 4%' }}>
+                    <Image src='../../../public/img/logo.PNG' alt='logo-portfolio' fluid width={'75%'}/>
+                </Navbar.Brand> 
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
                 <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
                 <Nav
-                    className="my-2 my-lg-0"
+                    className="my-2 my-lg-0 pe-xxl-5"
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
