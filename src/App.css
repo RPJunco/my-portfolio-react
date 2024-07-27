@@ -15,6 +15,10 @@
   --acercaDe-p-color: #fff;
 
   --card-bgc: #293b50;
+
+  --form-control-bgc: #09121c;
+  --form-control-label-color: #757575;
+  
 }
 
 /*Estilos aplicados al Header*/
@@ -106,6 +110,32 @@
   aspect-ratio: 4 / 3; 
   border-radius: 10px; 
   transition: box-shadow 1.9s;
+}
+
+/*Estilos aplicados al componente Footer*/
+
+.footer .form-control {
+  background-color: var(--form-control-bgc);
+  border: 1px solid var(--form-control-bgc);
+  font-size: 20px;
+}
+
+.footer .form-container textarea {
+  height: 300px;
+  font-size: 20px;
+  padding-top: 40px !important;
+  background-color: #09121c;
+  color: white;
+}        
+
+.footer .form-floating input {
+  height: 85px !important;
+  color: white;
+  background-color: #09121c;
+}
+
+label {
+  color: var(--form-control-label-color);
 }
 
 .img-proyecto:hover {
