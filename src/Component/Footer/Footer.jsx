@@ -53,7 +53,7 @@ const Footer = () => {
                 }}
                 >
                     {({
-                        isSubmitting, handleSubmit, touched
+                        isSubmitting, handleSubmit, touched, errors
                     }) => (
                         <Container>
                             <Form className='d-flex flex-column justify-content-center align-items-center' onSubmit={handleSubmit} noValidate>
@@ -63,7 +63,7 @@ const Footer = () => {
                                             <Field 
                                             type="text" 
                                             name="nombre" 
-                                            className={`form-control ${touched.nombre && 'is-invalid'}`} 
+                                            className={`form-control ${touched.nombre ? (errors.nombre ? 'is-invalid' : 'is-valid') : ''}`} 
                                             id="nombre" 
                                             autoComplete='given-name'
                                             aria-describedby='nombreError'
@@ -77,7 +77,7 @@ const Footer = () => {
                                             <Field 
                                             type="text" 
                                             name='apellido' 
-                                            className={`form-control ${touched.apellido && 'is-invalid'}`} 
+                                            className={`form-control ${touched.apellido ? (errors.apellido ? 'is-invalid' : 'is-valid') : ''}`} 
                                             id="apellido" 
                                             autoComplete='family-name'
                                             aria-describedby="apellidoError"
@@ -93,7 +93,7 @@ const Footer = () => {
                                             <Field 
                                             type="tel" 
                                             name='telefono' 
-                                            className={`form-control ${touched.telefono && 'is-invalid'}`} 
+                                            className={`form-control ${touched.telefono ? (errors.telefono ? 'is-invalid' : 'is-valid') : ''}`} 
                                             id="tel" 
                                             autoComplete='tel'
                                             aria-describedby="telError"
@@ -107,7 +107,7 @@ const Footer = () => {
                                         <Field 
                                         type="email" 
                                         name='email' 
-                                        className={`form-control ${touched.email && 'is-invalid'}`} 
+                                        className={`form-control ${touched.email ? (errors.email ? 'is-invalid' : 'is-valid') : ''}`} 
                                         id="email" 
                                         autoComplete='email'
                                         aria-describedby="emailError"
@@ -123,7 +123,7 @@ const Footer = () => {
                                             <Field 
                                             as="textarea" 
                                             name="mensaje" 
-                                            className={`form-control w-100 ${touched.mensaje && 'is-invalid'}`} 
+                                            className={`form-control w-100 ${touched.mensaje ? (errors.mensaje ? 'is-invalid' : 'is-valid') : ''}`} 
                                             id="mensaje" 
                                             autoComplete='off'
                                             aria-describedby="mensajeError"
