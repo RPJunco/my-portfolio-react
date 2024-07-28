@@ -1,4 +1,4 @@
-import Btn from '../../../Btn/Btn.jsx';
+import Link from '../../../Link/Link.jsx';
 import { Container, Row, Col, Card, CardBody } from 'react-bootstrap';
 
 const Work = () => {
@@ -16,7 +16,7 @@ const Work = () => {
                         <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Frontend</h3>
-                                <Btn contenido='Leer Mas' width='50%' position='center'/>
+                                <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=frontend&type=&language=&sort='/>
                             </CardBody>
                         </Card>
                     </Col>
@@ -24,7 +24,7 @@ const Work = () => {
                         <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Backend</h3>
-                                <Btn contenido='Leer Mas' width='50%' position='center'/>
+                                <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=backend&type=&language=&sort='/>
                             </CardBody>
                         </Card>
                     </Col>
@@ -32,7 +32,7 @@ const Work = () => {
                     <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
                                 <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Fullstack</h3>
-                                <Btn contenido='Leer Mas' width='50%' position='center'/>
+                                <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=fullstack&type=&language=&sort='/>
                             </CardBody>
                         </Card>
                     </Col>
