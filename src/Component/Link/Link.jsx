@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Link = ({ contenido, width, position, link, download }) => {
+const Link = ({ contenido='Link', width='100%', position='center', link='#', download='' }) => {
 
     const alignment = position === 'start' ? 'justify-content-start' : 'justify-content-center';
 
@@ -12,20 +12,12 @@ const Link = ({ contenido, width, position, link, download }) => {
 };
 
 Link.propTypes = {
-    contenido: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-    position: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    download: PropTypes.string.isRequired
+    contenido: PropTypes.string,
+    width: PropTypes.string,
+    position: PropTypes.string,
+    link: PropTypes.string,
+    download: PropTypes.string
 };
-
-Link.defaultProps = {
-    tipo: 'button',
-    width: '100%',
-    justifyContent: 'center',
-    link: '#',
-    download: false,
-}
 
 
 export default Link;
