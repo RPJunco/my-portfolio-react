@@ -35,7 +35,7 @@ const Hero = () => {
         style={{ padding: paddingCustom }}
         >
             <Row className='justify-content-center align-items-center mb-5'>
-                <Col lg={6} md={12} className='mb-5'>
+                <Col lg={6} md={12} className='mb-5 pe-0'>
                     <Card 
                     className='text-xxl-start text-center ms-xxl-5' border='0' style={{ backgroundColor: '#011225' }}
                     >
@@ -46,7 +46,7 @@ const Hero = () => {
                             Me encargo de desarrollar aplicaciones web que coinciden con los requerimientos de los clientes.
                         </Card.Text>
                         <Card 
-                        className='hero-iconos-contenedor d-flex justify-content-xxl-start align-items-xxl-start justify-content-center align-items-center flex-row' 
+                        className='hero-iconos-contenedor d-flex flex-wrap justify-content-xxl-start align-items-xxl-start justify-content-center align-items-center flex-row' 
                         style={{ backgroundColor: '#011225' }}
                         border='0'
                         >
