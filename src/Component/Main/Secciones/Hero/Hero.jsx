@@ -37,7 +37,7 @@ const Hero = () => {
             <Row className='justify-content-center align-items-center mb-5'>
                 <Col lg={6} md={12} className='mb-5'>
                     <Card 
-                    className='p-5 text-xxl-start text-center' border='0' style={{ backgroundColor: '#011225' }}
+                    className='text-xxl-start text-center ms-xxl-5' border='0' style={{ backgroundColor: '#011225' }}
                     >
                         <h3>Hola de nuevo, soy yo!</h3>
                         <h1>Rodrigo Junco</h1>
