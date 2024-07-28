@@ -15,7 +15,7 @@ const Hero = () => {
                 setPaddingCustom('170px 0px 170px 0px');
             }else{
                 setBtnPosition('center');
-                setPaddingCustom('100px 0px 0px 0px');
+                setPaddingCustom('150px 0px 0px 0px');
             }
         };
 
