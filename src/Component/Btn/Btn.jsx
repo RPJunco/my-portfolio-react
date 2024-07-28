@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Btn = ({ tipo, contenido, width, position }) => {
+const Btn = ({ tipo='button', contenido='Boton', width='100%', position='center' }) => {
 
     const alignment = position === 'start' ? 'justify-content-start' : 'justify-content-center';
 
@@ -12,17 +12,10 @@ const Btn = ({ tipo, contenido, width, position }) => {
 };
 
 Btn.propTypes = {
-    tipo: PropTypes.string.isRequired,
-    contenido: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-    position: PropTypes.string.isRequired,
+    tipo: PropTypes.string,
+    contenido: PropTypes.string,
+    width: PropTypes.string,
+    position: PropTypes.string,
 };
-
-Btn.defaultProps = {
-    tipo: 'button',
-    width: '100%',
-    justifyContent: 'center'
-}
-
 
 export default Btn;
