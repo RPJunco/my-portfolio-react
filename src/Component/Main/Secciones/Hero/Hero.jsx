@@ -50,13 +50,13 @@ const Hero = () => {
                         style={{ backgroundColor: '#011225' }}
                         border='0'
                         >
-                            <Card.Link href="https://www.instagram.com/rodrigojunco.23/" target="_blank">
+                            <Card.Link href="https://www.instagram.com/rodrigojunco.23/" className='m-0' target="_blank">
                                 <i className="bi bi-instagram icons"></i>
                             </Card.Link>
-                            <Card.Link href="https://www.linkedin.com/in/rodrigojuncodev/" target="_blank">
+                            <Card.Link href="https://www.linkedin.com/in/rodrigojuncodev/" className='m-0' target="_blank">
                                 <i className="bi bi-linkedin icons"></i>
                             </Card.Link>
-                            <Card.Link href="https://github.com/RPJunco" target="_blank">
+                            <Card.Link href="https://github.com/RPJunco" className='m-0' target="_blank">
                                 <i className="bi bi-github icons"></i>
                             </Card.Link>
                         </Card>
