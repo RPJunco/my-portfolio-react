@@ -1,4 +1,4 @@
-import Btn from '../../../Btn/Btn.jsx';
+import Link from '../../../Link/Link.jsx';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 
@@ -61,7 +61,7 @@ const Hero = () => {
                             </Card.Link>
                         </Card>
                         <Card style={{ backgroundColor: '#011225' }} border='0'>
-                            <Btn contenido="Descargar CV" width="50%" position={btnPosition}/>
+                            <Link contenido="Descargar CV" width="50%" position={btnPosition} link='./archivos/CV.pdf' download='./archivos/CV.pdf'/>
                         </Card>
                     </Card>
                 </Col>
