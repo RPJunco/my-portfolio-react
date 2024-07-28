@@ -42,7 +42,7 @@ function Header() {
     return (    
         <Navbar expand="xxl" className="fixed-top pb-1" style={{ backgroundColor: '#09121c'}}>
             <Container fluid style={{ justifyContent: 'space-around' }}>
-                <Navbar.Brand href="#logo" style={{ padding: '0 4%' }} className='ms-xxl-5 ms-lg-0'><img src="./img/logo.PNG" alt="logo-portofolio" /></Navbar.Brand> 
+                <Navbar.Brand href="#logo" style={{ padding: '0%' }} className='ms-xxl-5 ms-sm-0'><img src="./img/logo.PNG" alt="logo-portofolio" /></Navbar.Brand> 
                 <Navbar.Toggle aria-controls="navbarScroll" style={{ backgroundColor: 'white' }}/>
                 <Navbar.Collapse id="navbarScroll" className='justify-content-end'>
                 <Nav
