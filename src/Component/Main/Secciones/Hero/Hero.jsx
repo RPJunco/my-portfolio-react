@@ -61,7 +61,12 @@ const Hero = () => {
                             </Card.Link>
                         </Card>
                         <Card style={{ backgroundColor: '#011225' }} border='0'>
-                            <Link contenido="Descargar CV" width="50%" position={btnPosition} link='./public/archivos/CV.pdf' download='./public/archivos/CV.pdf'/>
+                            <Link 
+                            contenido="Descargar CV" 
+                            width="50%" 
+                            position={btnPosition} 
+                            link='/archivos/CV.pdf' 
+                            download='CV_RodrigoJunco'/>
                         </Card>
                     </Card>
                 </Col>
