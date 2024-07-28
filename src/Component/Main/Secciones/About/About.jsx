@@ -42,10 +42,10 @@ const About = () => {
                 style={{ padding: '50px 0px' }}>
                     <Card className='justify-content-center text-center text-xxl-start'
                     style={{ backgroundColor: '#293b50' }} border='0'>
-                        <Card.Body className='justify-content-center text-center text-xxl-start me-xxl-5 m-sm-0 p-5'>
+                        <Card.Body className='justify-content-center text-center text-xxl-start me-xxl-5 m-sm-0 p-xxl-5 p-sm-0'>
                             <h2 className='pb-0 mb-0'>Acerca de <span>Mi</span></h2>
                             <h3 className='pb-3'>Desarrollador Web Fullstack Jr</h3>
-                            <Card.Text className='justify-content-center me-xxl-5 m-sm-0' color='white' style={{ textAlign: 'justify' }}>
+                            <Card.Text className='justify-content-center' color='white' style={{ textAlign: 'justify' }}>
                                 Hola! Me llamo Rodrigo Junco y me gustaria presentarme.
                                 Soy un estudiante de Ingenieria en Sistemas de la Información
                                 en la Facultad Regional de Córdoba, UTN.
