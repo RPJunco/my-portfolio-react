@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import './Btn.css'
 
 const Btn = ({ tipo, contenido, width, position }) => {
 
