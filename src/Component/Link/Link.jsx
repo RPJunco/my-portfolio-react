@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import '../Btn/Btn.css';
 
 const Link = ({ contenido, width, position, link, download }) => {
 
