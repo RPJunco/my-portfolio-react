@@ -13,13 +13,13 @@ const Skills = () => {
                 <Col lg={2} md={4} sm={6} className='mb-4'>
                     <div className='card h-100 text-center border-0 p-2'>
                         <h3 className='mb-1'>HTML</h3>
-                        <img src="./img/skills/html.png" alt="Html" className='icons h-auto mx-auto'/>
+                        <img src="./img/skills/html5.png" alt="Html" className='icons h-auto mx-auto'/>
                     </div>
                 </Col>
                 <Col lg={2} md={4} sm={6} className='mb-4'>
                     <div className='card h-100 text-center border-0 p-2'>
                         <h3 className='mb-1'>CSS</h3>
-                        <img src="./img/skills/css.png" alt="Css" className='icons h-auto mx-auto'/>
+                        <img src="./img/skills/css3.png" alt="Css" className='icons h-auto mx-auto'/>
                     </div>
                 </Col>
                 <Col lg={2} md={4} sm={6} className='mb-4'>
