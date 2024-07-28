@@ -1,6 +1,6 @@
-import Btn from '../../../Btn/Btn.jsx'
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
+import Link from '../../../Link/Link.jsx';
 
 const About = () => {
 
@@ -54,7 +54,7 @@ const About = () => {
                                 manejo correcto del software para desarrollar
                                 aplicaciones que sean atractivas para los clientes.
                             </Card.Text>
-                            <Btn contenido='Ver Mas' width='50%' position={btnPosition}/>
+                            <Link contenido='Ver Mas' width='50%' position={btnPosition} link='https://github.com/RPJunco'/>
                         </Card.Body>
                     </Card>
                 </Col>
