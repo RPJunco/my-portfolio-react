@@ -12,26 +12,26 @@ const Work = () => {
             <h2 style={{ margin: '0 0 130px 0' }}>Mis <span>Servicios</span></h2>
             <Container>
                 <Row className='justify-content-center mb-5'>
-                    <Col lg={4} md={12} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
+                    <Col lg={4} md={8} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
                         <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
-                                <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Frontend</h3>
+                                <h3 className='mb-xxl-5 ms-0 me-0 p-xxl-3'>Desarrollo de aplicaciones Frontend</h3>
                                 <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=frontend&type=&language=&sort='/>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col lg={4} md={12} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
+                    <Col lg={4} md={8} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
                         <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
-                                <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Backend</h3>
+                                <h3 className='mb-xxl-5 ms-0 me-0 p-xxl-3'>Desarrollo de aplicaciones Backend</h3>
                                 <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=backend&type=&language=&sort='/>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col lg={4} md={12} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
-                    <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
+                    <Col lg={4} md={8} sm={12} className='mb-5 p-3 d-flex justify-content-center'>
+                        <Card className='h-100 w-auto' border='none' style={{ borderRadius: '40px', backgroundColor: '#293b50' }}>
                             <CardBody style={{backgroundColor: '#293b50', borderRadius: '40px'}}>
-                                <h3 style={{ margin: '35px 0px', padding: '17px 0px' }}>Desarrollo de aplicaciones Fullstack</h3>
+                                <h3 className='mb-xxl-5 ms-0 me-0 p-xxl-3'>Desarrollo de aplicaciones Fullstack</h3>
                                 <Link contenido='Leer Mas' width='50%' position='center' link='https://github.com/RPJunco?tab=repositories&q=fullstack&type=&language=&sort='/>
                             </CardBody>
                         </Card>
