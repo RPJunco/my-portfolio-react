@@ -48,7 +48,6 @@
 /*Estilos aplicados al Hero*/
 
 .icons {
-  margin: 0px 25px;
   color: var(--hero-icon-color);
   font-size: 45px;
   transition: color 1.9s;
